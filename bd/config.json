@@ -1,0 +1,8 @@
+{
+    "mysql":{
+        "host":"192.168.99.100",
+        "user":"root",
+        "password":"P@ssw0rd",
+        "db":"bd_python_examples"
+    }
+}

@@ -1,2 +1,8 @@
+# MySQL
 PyMySQL==0.7.10
+
+# Excell
 openpyxl==2.4.5
+
+# RabbitMQ
+pika==0.10.0

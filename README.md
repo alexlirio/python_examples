@@ -7,6 +7,7 @@ Exemplos com:
 - Excel
 - Logs
 - String
+- RabbitMQ
 
 ## Dica de Instalação e configuração dos requirements.
 

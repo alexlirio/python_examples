@@ -7,7 +7,11 @@ Exemplos com:
 - Excel
 - Logs
 - String
-- RabbitMQ
+- RabbitMQ  
+Para acesso o RabbitMQ do Docker Toolbox, http://192.168.99.100:15672, é preciso habilitar o "Management Plugin" com os seguintes comandos de exemplo:  
+$ docker ps  
+$ docker exec -it rabbitmq bash  
+$ rabbitmq-plugins enable rabbitmq_management  
 
 ## Dica de Instalação e configuração dos requirements.
 

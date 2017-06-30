@@ -1,15 +1,7 @@
-'''
-Created on 8 de mar de 2017
-
-@author: alirio
-'''
-
-#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 import pymysql.cursors
-import pymysql
 import json
-#from bd.config import config
+
 
 class util:
     

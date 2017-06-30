@@ -1,9 +1,3 @@
-'''
-Created on 8 de mar de 2017
-
-@author: alirio
-'''
-
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 

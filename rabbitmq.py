@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 '''
 Created on 8 de mar de 2017
 
@@ -27,9 +29,9 @@ Passo a passo da configuracao do RabbitMQ usando Docker Kitematic:
 @author: alirio
 '''
 
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
+
 import pika
+
 
 RABBITQM_HOST = '192.168.99.100'
 RABBITQM_QUEUE = 'hello'

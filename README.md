@@ -3,10 +3,12 @@ Projeto Python usado para anotações de diversos exemplos e testes.
 
 
 Exemplos com:
-- Banco
-- Excel
+- Arguments
+- Databases
+- Excell
+- Loops
 - Logs
-- String
+- Strings
 - RabbitMQ  
 Para acesso o RabbitMQ do Docker Toolbox, http://192.168.99.100:15672, é preciso habilitar o "Management Plugin" com os seguintes comandos de exemplo:  
 $ docker ps  

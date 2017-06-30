@@ -1,0 +1,1 @@
+pip install --install-option="--prefix=C:\\desenvolvimento\\projects\\python_examples\\requirements" -r requirements.txt

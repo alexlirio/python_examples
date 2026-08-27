@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
-from bd.util import util
+from bd.util import Util
 
 
 class CompanyDAO(object):
-    __db = None;
+    __db = None
 
     def __init__(self):
-        self.__db = util()
+        self.__db = Util()
 
     def getCompanies(self):
-        return self.__db.query("SELECT * FROM company", None).fetchall();
+        return self.__db.query("SELECT * FROM company", None).fetchall()
     

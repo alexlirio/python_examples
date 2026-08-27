@@ -23,5 +23,5 @@ if __name__ == '__main__':
     # Save the file
     wb.save("file/sample.xlsx")
     
-    print 'Finished!'
+    print('Finished!')
 

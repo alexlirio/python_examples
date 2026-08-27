@@ -1,0 +1,21 @@
+[project]
+name = "python-examples"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Alex Lirio", email = "alexlirioti@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "mariadb>=1.1.14",
+    "openpyxl>=3.1.5",
+    "pika==1.4.4",
+]
+
+[project.scripts]
+python-examples = "python_examples:main"
+
+[build-system]
+requires = ["uv_build>=0.12.6,<0.13.0"]
+build-backend = "uv_build"

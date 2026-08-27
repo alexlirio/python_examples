@@ -6,23 +6,23 @@ if __name__ == '__main__':
     
     n = 0
     
-    if True: print 'True'
+    if True: print('True')
     
     for letra in 'lista':
-        print letra
+        print(letra)
     
     for idx, item in enumerate('lista'):
-        print idx, item
+        print(idx, item)
     
     for i in range(3):
         if i == 0:
-            print i
+            print(i)
         elif i == 1:
-            print i
+            print(i)
         else:
-            print i
+            print(i)
             
     while n < 4:
-        print n
+        print(n)
         n += 1
         

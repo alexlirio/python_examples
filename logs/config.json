@@ -20,7 +20,7 @@
             "class": "logging.handlers.RotatingFileHandler",
             "level": "INFO",
             "formatter": "simple",
-            "filename": "C:/desenvolvimento/projects/python_examples/logs/output/info.log",
+            "filename": "logs/output/info.log",
             "maxBytes": 104857600,
             "backupCount": 20,
             "encoding": "utf8"
@@ -30,7 +30,7 @@
             "class": "logging.handlers.RotatingFileHandler",
             "level": "ERROR",
             "formatter": "simple",
-            "filename": "C:/desenvolvimento/projects/python_examples/logs/output/error.log",
+            "filename": "logs/output/error.log",
             "maxBytes": 104857600,
             "backupCount": 20,
             "encoding": "utf8"

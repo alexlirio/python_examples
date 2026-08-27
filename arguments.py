@@ -25,11 +25,10 @@ def method(nome, *args, **kwargs):
 
 
 if __name__ == '__main__':
-    print method('br')
-    print method('img',src='foto.jpg',width=3,height=4)
-    print method('a','Wikipédia',
-              href='http://wikipedia.org')
-    print method('p','Eu não devia te dizer',
+    print(method('br'))
+    print(method('img',src='foto.jpg',width=3,height=4))
+    print(method('a','Wikipédia', href='http://wikipedia.org'))
+    print(method('p','Eu não devia te dizer',
         'mas essa lua','mas esse conhaque',
         'botam a gente comovido como o diabo.',
-        id='poesia')
+        id='poesia'))

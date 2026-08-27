@@ -25,7 +25,7 @@ else:
 
 def get_logger(module_name):
     """
-    Method used to initialize logger object.
+    Method used to initialize a logger object.
 
     Args:
         module_name (str): Name of the module that involkes logger.
